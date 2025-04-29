@@ -8,6 +8,8 @@
 
 This project focuses on **identifying meaningful comments** during GitHub Pull Request (PR) reviews, and **automatically notifying developers** based on the detected important comments.  
 It leverages a fine-tuned BERT model for classification and integrates a simple **email notification system** to assist developers in timely reviewing significant feedback.
+**Zenodo Archive**: [Dataset and Materials available here](https://zenodo.org/records/15293180)
+
 
 ✨ Main Features:
 - 🔍 Fine-tuned BERT model to classify PR comments into "meaningful" and "not meaningful".
