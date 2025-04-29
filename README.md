@@ -19,10 +19,15 @@ It leverages a fine-tuned BERT model for classification and integrates a simple 
 ## 📚 Paper Information
 
 > **Paper Title**: *Fine-tuning Comment Importance Detection for Automated Developer Notifications*  
-> **Authors**: Hui Sun, [Your other authors' names if any]  
-> **Status**: [Submitted/Under Review/Accepted]  
-> **Conference/Journal**: [Add if applicable, e.g., ICSE/ESEM 2025]
+> **Authors**: Hui Sun, Xingyue Shi, Mohan Reddy
+
 
 ---
 ## 🛠️ Project Structure
 
+This is the HW of 722, we fine tuned a bert base model to predict if a comment in GitHub PR is useful. 
+1500data.xlsx is the file that we three annotated 1500 comments sampled from 495 projects, over 4 million PRs from Github Platform.
+finetuned_BERT_comments_detector.ipynv is the code used to finetune bert model.
+fintuned_BERT_epoch_5.ipynb is the fifth model trained by our code which is also the model performed better.
+senEmailNoti.ipynb is the file used to predict a comment usefulness and send email to users with a email title to notify stakeholders if the comment in a PR is important or not
+Interview Plan.pdf is the file we used to interview users.
